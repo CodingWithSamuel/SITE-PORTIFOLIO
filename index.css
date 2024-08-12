@@ -67,3 +67,7 @@ footer {
     color: rgb(164, 75, 247)
     ; /* Cor ao passar o mouse (pode personalizar) */
 }
+
+ section p1 {
+color: yellow
+ }
