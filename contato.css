@@ -65,6 +65,9 @@ a:hover {
     display: inline-flex;
     align-items: center;
     gap: 10px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
 }
 
 .botao-voltar a:hover {
