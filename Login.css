@@ -59,6 +59,9 @@ body {
 }
 
 .botao-voltar a {
+    position: absolute;
+    top: 20px;
+    left: 10px;
     background-color: #1a73e8;
     color: #fff;
     padding: 10px 20px;
