@@ -1,7 +1,7 @@
 body { 
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+    background-color: white;
+    font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 ul { 
@@ -13,9 +13,14 @@ ul {
 }
 
 a {
-   color: rgb(164, 75, 247);
+   color: rgb(0, 0, 0);
    text-decoration: none;
 
+}
+
+a:hover {
+    color: rgb(0, 162, 255)
+    ; /* Cor ao passar o mouse (pode personalizar) */
 }
 
 img{
@@ -23,7 +28,7 @@ img{
     width: 160px;
     height: 170px;
     border-radius: 50%;
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid rgb(0, 0, 0);
 
 
 }
@@ -33,11 +38,11 @@ img{
 }
 
 h1{
-    color:rgb(164, 75, 247);
+    color:black;
 }
 
 footer {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0);
     padding: 200px 0;
     text-align: center;
     color: #fff;
@@ -50,7 +55,7 @@ footer {
 }
 
 .social-icons a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s;
@@ -64,10 +69,10 @@ footer {
 }
 
 .social-icons a:hover {
-    color: rgb(164, 75, 247)
+    color: rgb(0, 162, 255)
     ; /* Cor ao passar o mouse (pode personalizar) */
 }
 
  section p1 {
-color: yellow
+color: rgb(255, 251, 0)
  }
