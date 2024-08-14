@@ -12,7 +12,7 @@
     </div>
     <div class="container">
         <h2>Login</h2>
-        <form>
+        <form id="loginForm">
             <div class="input-group">
                 <label for="username">Usuário:</label>
                 <input type="text" id="username" name="username" required>
@@ -22,12 +22,16 @@
                 <input type="password" id="password" name="password" required>
             </div>
             
-        <button type="submit" class="btn" > <a href="index.html" > Entrar</a>  </button> 
+        <button type="submit" class="btn" > Entrar </a>  </button> 
         
         </form>
+        <div id="message"></div> <!-- Adicionado para exibir mensagens -->
         <div class="register-link">
             <p>Não tem uma conta? <a href="index.html">Registre-se agora</a></p>
         </div>
     </div>
+
+    <script src="login.js"></script>
+
 </body>
 </html>
