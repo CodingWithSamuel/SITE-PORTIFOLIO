@@ -41,6 +41,12 @@ h1{
     color:black;
 }
 
+.texto-junto {
+    line-height: 1.4;
+    margin: 0;
+
+}
+
 footer {
     background-color: rgba(0, 0, 0, 0);
     padding: 200px 0;
@@ -92,4 +98,8 @@ color: rgb(255, 251, 0)
 .btn-logout:hover {
     background-color: rgb(0, 162, 255); /* Azul claro */
     color: black;
+}
+
+.countainer{
+    padding: 0 40px;
 }
