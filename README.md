@@ -1,4 +1,5 @@
 Portfólio de Samuel Oliveira
+
 Bem-vindo ao meu portfólio! Este projeto foi criado com o objetivo de apresentar meus conhecimentos em desenvolvimento web, demonstrar minhas habilidades e, ao mesmo tempo, facilitar minha busca por oportunidades de trabalho na área de TI.
 
 Sobre o Projeto
