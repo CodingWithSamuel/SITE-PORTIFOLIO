@@ -28,3 +28,5 @@ Contato:
 
 Se você deseja saber mais sobre mim ou tem interesse em me contratar, entre em contato através dos meus perfis nas redes sociais ou pelo e-mail disponível no site.
 
+29/08/2024: Thiago Fachini ingressa no projeto
+
