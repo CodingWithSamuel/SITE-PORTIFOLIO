@@ -8,7 +8,25 @@
 </head>
 <body>
     <!-- Fazer Pagina de configurações Para o Admin (html, css, js) -->
-      
+    <div class="botao-voltar">
+        <a href="index.html"><i class="fas fa-arrow-left"></i> Voltar para a Página Inicial</a>
+    </div>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Usuário Admin:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Senha Admin:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+        <button type="submit" class="btn" > Entrar </a>  </button> 
+        
+        </form>
+        <div id="message"></div> 
 </body>
 <script src="configurações.js"></script>
 </html>
