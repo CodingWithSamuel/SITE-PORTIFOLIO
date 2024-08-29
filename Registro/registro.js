@@ -1,14 +1,3 @@
-function verificarAdmin() {
-            const admin = prompt("Digite a senha de administrador para acessar o painel de aprovação:");
-            const senhaAdmin = "admin123"; // Defina uma senha para o administrador
-
-            if (admin === senhaAdmin) {
-                document.getElementById('aprovarUsuariosBtn').style.display = 'block';
-            } else {
-                alert("Acesso negado!");
-            }
-        }
-
         function registrarUsuario() {
             const nome = document.getElementById('nome').value;
             const formacao = document.getElementById('formacao').value;
