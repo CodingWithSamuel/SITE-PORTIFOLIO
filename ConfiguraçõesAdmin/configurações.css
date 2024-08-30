@@ -4,7 +4,7 @@ body {
     padding: 20px;
     }
     .container {
-        background-color: #ffffff;
+        background-color: #f7f7f7;
         padding: 50px;
         border-radius: 70px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -71,4 +71,19 @@ body {
     .botao-voltar a:hover {
         background-color: #1c00b8;
     } 
-    /*não consegui centralizar o box
+        
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #9126c2;
+    padding: 20px;
+    display: flex; /* adicionado */
+    justify-content: center; /* adicionado */
+    }
+.container {
+    background-color: #f7f7f7;
+    padding: 50px;
+    border-radius: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    align-self: center; /* adicionado */
+}
