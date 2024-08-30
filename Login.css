@@ -13,6 +13,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
+    z-index: 3;
 }
 .container h2 {
     margin-top: 0;
@@ -56,6 +57,7 @@ body {
 
 .botao-voltar {
     margin-top: 20px;
+    z-index: 2;
 }
 
 .botao-voltar a {
@@ -75,3 +77,22 @@ body {
 .botao-voltar a:hover {
     background-color: #1558b3;
 }
+
+.Login-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%; /* A imagem ocupará metade da largura da tela */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.Login-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 20%;
+    }
