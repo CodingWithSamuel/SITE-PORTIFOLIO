@@ -1,10 +1,10 @@
-body { 
+body {
     color: #000000;
     background-color: white;
-    font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-ul { 
+ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -13,32 +13,37 @@ ul {
 }
 
 a {
-   color: rgb(0, 0, 0);
-   text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 
 }
 
 a:hover {
-    color: rgb(0, 162, 255)
-    ; /* Cor ao passar o mouse (pode personalizar) */
+    color: rgb(0, 162, 255);
+    /* Cor ao passar o mouse (pode personalizar) */
 }
 
-img{
-
+img {
     width: 160px;
     height: 170px;
     border-radius: 50%;
     border: 5px solid rgb(0, 0, 0);
-
-
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.5s ease-in-out;
 }
 
-.center{
+img:hover {
+    transform: rotate(360deg) scale(1.2);
+    /* Gira a imagem e aumenta o tamanho */
+}
+
+.center {
     text-align: center;
 }
 
-h1{
-    color:black;
+h1 {
+    color: black;
 }
 
 .texto-junto {
@@ -75,15 +80,15 @@ footer {
 }
 
 .social-icons a:hover {
-    color: rgb(0, 162, 255)
-    ; /* Cor ao passar o mouse (pode personalizar) */
+    color: rgb(0, 162, 255);
+    /* Cor ao passar o mouse (pode personalizar) */
 }
 
- section p1 {
-color: rgb(255, 251, 0)
- }
+section p1 {
+    color: rgb(255, 251, 0)
+}
 
- .btn-logout {
+.btn-logout {
     display: block;
     margin: 1px auto 0;
     padding: 7px 20px;
@@ -100,7 +105,7 @@ color: rgb(255, 251, 0)
     color: black;
 }
 
-.countainer{
+.countainer {
     padding: 0 40px;
 }
 
