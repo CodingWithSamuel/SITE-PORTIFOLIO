@@ -22,7 +22,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
 
         // Redireciona após 1 segundo
         setTimeout(() => {
-            window.location.href = "index.html"; // Altere para a página que deseja
+            window.location.href = "../../index.html"; // Altere para a página que deseja
         }, 1000);
     } else {
         message.style.color = "red";
