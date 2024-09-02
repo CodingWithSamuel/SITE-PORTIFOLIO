@@ -16,8 +16,8 @@ if (loggedInUser) {
 
     if (loggedInUser.username === "admin") {
         adminMenu.innerHTML = `
-              <li><a href="AprovedUsers/aproveusers.html" onclick="aprovarUsuarios()">Aprovar Usuários</a></li>
-              <li><a href="#">Configurações</a></li>
+              <li><a href="#" onclick="aprovarUsuarios(event)">Aprovar Usuários</a></li>
+              <li><a href=ConfiguraçõesAdmin/configurações.html> Configurações</a></li>
           `;
     } else {
         adminMenu.innerHTML = `
@@ -27,13 +27,45 @@ if (loggedInUser) {
 }
 
 function toggleMenu() {
-    const menu = document.getElementById("adminMenu");
-    if (menu.style.display === "none" || menu.style.display === "") {
-        menu.style.display = "block";
+    const menu = document.getElementById('adminMenu');
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
     } else {
+        menu.style.display = "block";
+    }
+}
+
+function aprovarUsuarios(event) {
+    // Evita que o link siga para uma nova página
+    event.preventDefault();
+
+    // Exibe o menu
+    const modal = document.getElementById("aprovarUsuarioModal");
+    modal.style.display = "block";
+
+    // Fecha o menu suspenso
+    const menu = document.getElementById('adminMenu');
+    if (menu.style.display === "block") {
         menu.style.display = "none";
     }
 }
+
+const closeBtn = document.getElementById("closeBtn");
+
+// Quando o botão de fechar for clicado, o MENU é escondido
+closeBtn.onclick = function() {
+    const modal = document.getElementById("aprovarUsuarioModal");
+    modal.style.display = "none";
+}
+
+// Quando o usuário clica fora do conteúdo do MENU, o menu também é escondido
+window.onclick = function(event) {
+    const modal = document.getElementById("aprovarUsuarioModal");
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
 
 const logoutButton = document.getElementById("logout-btn");
 logoutButton.addEventListener("click", function () {
